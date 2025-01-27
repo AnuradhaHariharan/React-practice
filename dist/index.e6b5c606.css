@@ -1,0 +1,78 @@
+.header {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 1rem;
+  display: flex;
+}
+
+.app {
+  margin: 0 2rem;
+}
+
+.nav-right {
+  gap: 4rem;
+  display: flex;
+}
+
+.nav-right li {
+  cursor: pointer;
+  font-size: 1.2rem;
+  list-style-type: none;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.footer {
+  background-color: #fff8dc;
+  height: 30vh;
+}
+
+.footer-elements {
+  justify-content: center;
+  display: flex;
+}
+
+.footer ul li {
+  cursor: pointer;
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.food-container {
+  margin-block-end: 0;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  gap: 32px;
+  margin: 32px 16px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.res-card {
+  width: 16rem;
+  height: 25rem;
+  padding: .5rem;
+}
+
+.image-container {
+  height: 50%;
+}
+
+.res-image {
+  width: 100%;
+  height: 100%;
+}
+
+.res-card:hover {
+  transform: translateY(-5px);
+}
+
+.res-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.e6b5c606.css.map */
