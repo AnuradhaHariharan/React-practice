@@ -3887,6 +3887,7 @@ const FoodCard = (prop)=>{
                         columnNumber: 10
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "cost",
                         children: prop.resData.costForTwo
                     }, void 0, false, {
                         fileName: "App.js",
@@ -3904,6 +3905,7 @@ const FoodCard = (prop)=>{
                         columnNumber: 10
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "status",
                         children: prop.resData.isOpen ? "Open" : "Closed"
                     }, void 0, false, {
                         fileName: "App.js",
@@ -3929,7 +3931,7 @@ const FoodContainer = ()=>{
         className: "food-container",
         children: data.map((restaurant)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodCard, {
                 resData: restaurant.info
-            }, void 0, false, {
+            }, restaurant.info.id, false, {
                 fileName: "App.js",
                 lineNumber: 920,
                 columnNumber: 13
@@ -3947,9 +3949,9 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "image-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     className: "logo",
-                    src: "https://cdn.dribbble.com/users/1191192/screenshots/4250680/foodie_faster.jpg"
+                    children: "Tomato."
                 }, void 0, false, {
                     fileName: "App.js",
                     lineNumber: 933,
@@ -3983,6 +3985,13 @@ const Header = ()=>{
                         fileName: "App.js",
                         lineNumber: 938,
                         columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        children: "\uD83D\uDED2"
+                    }, void 0, false, {
+                        fileName: "App.js",
+                        lineNumber: 939,
+                        columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
@@ -4004,20 +4013,20 @@ const Footer = ()=>{
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "footer-elements",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: " Made with love by Anu"
+                children: " Made with love by Anu \u2665"
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 949,
+                lineNumber: 950,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
             fileName: "App.js",
-            lineNumber: 948,
+            lineNumber: 949,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 947,
+        lineNumber: 948,
         columnNumber: 9
     }, undefined);
 };
@@ -4028,30 +4037,30 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 959,
+                lineNumber: 960,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FoodContainer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 960,
+                lineNumber: 961,
                 columnNumber: 4
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 961,
+                lineNumber: 962,
                 columnNumber: 4
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 958,
+        lineNumber: 959,
         columnNumber: 2
     }, undefined);
 };
 _c4 = App;
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 965,
+    lineNumber: 966,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4;
