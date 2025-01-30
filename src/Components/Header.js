@@ -5,7 +5,6 @@ const Header=()=>{ // logo, about us search bar contact us
         <h1 className='logo'>Tomato.</h1>
         </div>
         <ul className='nav-right'>
-        <li>Search </li>
         <li>About us</li>
         <li>Contact us</li>
         <li>🛒</li>
